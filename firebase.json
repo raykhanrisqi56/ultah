@@ -1,0 +1,16 @@
+{
+  "hosting": {"site": "limanam-ultah",
+    "public": "build/apk",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
